@@ -151,9 +151,9 @@ export default function FormularioCadastro() {
             <div className="bg-white p-4 rounded-lg shadow-md">
               {/* O QR Code agora aponta para o ID REAL do banco */}
               <QRCode 
-                    value={`https://condominio-1axcdqclf-jose-morais-projects-ebf52c16.vercel.app/item/${itemCadastrado.id}`} 
-                    size={180}
-                />
+                value={`https://condominio-1axcdqclf-jose-morais-projects-ebf52c16.vercel.app/item/${itemCadastrado.id}`} 
+                size={180}
+            />
             </div>
             
             <p className="mt-4 text-[10px] text-blue-600 font-mono">UUID: {itemCadastrado.id}</p>
