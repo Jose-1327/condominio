@@ -142,8 +142,8 @@ export default function FormularioCadastro() {
         </>
       ) : (
         <div className="flex flex-col items-center py-10">
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">Item Gravado no Banco!</h2>
-          <p className="text-gray-500 mb-8">O ID abaixo é o registro oficial no Supabase.</p>
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">Confira o item cadastrado!</h2>
+          <p className="text-gray-500 mb-8">Escaneie o QR code</p>
 
           <div className="border-2 border-dashed border-blue-400 p-6 rounded-xl bg-blue-50 flex flex-col items-center shadow-inner">
             <p className="font-bold text-blue-800 mb-4 text-lg">{itemCadastrado.item.toUpperCase()}</p>
