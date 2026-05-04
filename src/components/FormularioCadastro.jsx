@@ -151,7 +151,7 @@ export default function FormularioCadastro() {
             <div className="bg-white p-4 rounded-lg shadow-md">
               {/* O QR Code agora aponta para o ID REAL do banco */}
               <QRCode 
-                value={`https://seu-sistema.vercel.app/item/${itemCadastrado.id}`} 
+                value={`https://condominio-1axcdqclf-jose-morais-projects-ebf52c16.vercel.app/${itemCadastrado.id}`} 
                 size={180}
               />
             </div>
